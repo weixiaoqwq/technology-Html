@@ -239,3 +239,39 @@
     color: white;
     border-radius: 3px;
 }
+.update{
+    width: 1330px;
+    margin: 0 auto;
+    border-top: 1px solid #e2ebef;
+    padding-top: 30px;
+}
+.update_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.update_div>div{
+    width: 23%;
+}
+.user_div img{
+    border-radius: 50%;
+}
+.authoer{
+    line-height: 60px;
+    margin-left: 20px;
+}
+.user_div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.num{
+    line-height: 60px;
+    font-size: 14px;
+    color: #6e6f70;
+}
+.update_video img{
+    width: 100%;
+    object-fit: cover;
+}
