@@ -208,16 +208,34 @@
 .recommend_ul>li{
     width: 23%;
     height: 308px;
-    border: 1px solid black;
-    box-sizing: border-box;
+    /*border: 1px solid black;*/
+    /*box-sizing: border-box;*/
     /*padding: ;*/
+    padding-bottom: 20px;
 }
 .recommend_ul>li img{
     width: 100%;
     object-fit: cover;
 }
 .recommend_title{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.recommend_author,.information{
+    color: #6e6f70;
     font-size: 14px;
-    margin-top: 20px;
-
+    margin-top: 10px;
+}
+.recommend_img{
+    position: relative;
+}
+.recommend_img>div{
+    display: initial;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
 }
