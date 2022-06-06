@@ -276,3 +276,25 @@
     width: 100%;
     object-fit: cover;
 }
+.PopularChannels_div{
+	width: 1330px;
+	margin: 0 auto;
+	border-top: 1px solid #e2ebef;
+	padding-top: 30px;
+}
+.popu_ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.popu_title{
+	font-family: 400;
+	margin-top: 20px;
+	font-size: 16px;
+}
+.popu_xinxi{
+	font-size: 14px;
+	margin-top: 5px;
+	color: #6E6F70;
+}
