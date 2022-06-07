@@ -371,6 +371,7 @@
     }
     .update_div>div{
         width: 49%;
+        margin-bottom: 20px;
     }
     .popu_ul{
         max-width: 100%;
@@ -414,6 +415,19 @@
     }
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+    .introduce_ul>li{
+        width: 100%;
+    }
+    .recommend_ul>li{
+        width: 100%
+    }
+    .update_div>div{
+        width: 100%;
+
+    }
+    .popu_ul>li{
+        width: 100%;
+    }
 
 }
