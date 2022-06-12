@@ -20,3 +20,17 @@ ce_an.click(function(){
 		is_ce=false;
 	}
 })
+
+//加载
+var load=$('.load');
+setTimeout(function(){
+	load.css({
+		'opacity':'0'
+	})
+	setTimeout(function(){
+		load.css({
+			'display':'none'
+			})
+		},1000)
+		
+},3000)
