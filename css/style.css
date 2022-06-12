@@ -21,8 +21,22 @@
     height: 21px;
     /* background-size: cover; */
     background-repeat: no-repeat;
+	margin-left: 20px;
 
 }
+#left{
+	display: flex;
+	align-items: center;
+}
+
+.ce_an{
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/素材/ce.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 #Search{
     width: 30%;
     height: 38px;
