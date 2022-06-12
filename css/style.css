@@ -426,6 +426,7 @@ footer>p{
     .min_title{
         margin-top: 30px;
     }
+	
 
 }
 @media screen and (max-width: 480px) {
@@ -442,5 +443,8 @@ footer>p{
     .popu_ul>li{
         width: 100%;
     }
+	#upload,.notice{
+		display: none;
+	}
 
 }
